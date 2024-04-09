@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
  
+/* header */
 .logo{
     width: 140px;
     margin-left: 20px;
@@ -51,16 +52,15 @@ a{
     font-weight: lighter;
 }
  
-.home{
+/* section 1 */
+.section1{
     display: flex;
     background-color: #F6F6F6;
     align-items: center;
     justify-content: space-between;
     max-width: 1400px;
-    max-height: 1200px;
     width: 100%;
-    height: 100%;
-    padding: 10px 30px;
+    padding: 40px;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -72,6 +72,7 @@ a{
 
 .home_2 h1{
     font-size: 55px;
+    color: #2F281E;
 }
 
 .home_2 p{
@@ -98,4 +99,374 @@ a{
     border-radius: 10px;
     text-align: center;
     font-weight: lighter;
+}
+
+/* section 2 */
+.section2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1400px;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo_3{
+    width: 45%;
+}
+
+.home_3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 120px;
+    padding-bottom: 5px;
+}
+
+.btnSec_2{
+    display: flex; 
+}
+
+.home_3 h1{
+    font-size: 55px;
+    margin-bottom: 20px;
+    color: #2F281E;
+}
+
+.h3_p{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.btnSec_2{
+    margin-left: 120px;
+}
+
+#btnappStore{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #0079E9;
+    color: white !important;
+    padding: 10px 35px 10px 25px;
+    border-radius: 10px;
+    margin-right: 50px;
+}
+
+.logoApp{
+    width: 24px;
+    margin-right: 10px;
+}
+
+.btnAppStoreContent h3{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.btnAppStoreContent p{
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+/* section 3 */
+
+.section3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F6F6F6;
+    justify-content: space-between;
+    max-width: 1400px;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.home_4_h1{
+    font-size: 24px;
+    padding: 70px 0px 60px 60px;
+}
+
+.img_4{
+    width: 35%;
+    margin-left: 150px;
+    margin-right: 100px;
+}
+
+.home_4_2{
+    display: flex;
+}
+
+.h1_1{
+    color: #FF7015;
+    font-size: 70px;
+    margin-bottom: 10px;
+    margin-top: 180px;
+}
+
+.h1_2{
+    color: #2F281E;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.home_4_text p{
+    font-size: 22px;
+    color: #544837;
+}
+
+/* section 4 */
+
+.section4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F6F6F6;
+    justify-content: space-between;
+    max-width: 1400px;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.home_5{
+    display: flex;
+    align-items: center;
+}
+
+.home_5_text{
+    margin-left: 200px;
+    margin-right: 150px;
+}
+
+.img_5{
+    width: 35%;
+}
+
+.h2_1{
+    color: #FF7015;
+    font-size: 70px;
+    margin-bottom: 10px;
+}
+
+.h2_2{
+    color: #2F281E;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.home_5_text p{
+    font-size: 22px;
+    color: #544837;
+}
+
+/* section 5 */
+
+.section5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F6F6F6;
+    justify-content: space-between;
+    max-width: 1400px;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.home_6{
+    display: flex;
+    align-items: center;
+}
+
+.img_6{
+    width: 36%;
+    margin: 50px 150px 80px 150px;
+}
+
+.h3_1{
+    color: #FF7015;
+    font-size: 70px;
+    margin-bottom: 10px;
+}
+
+.h3_2{
+    color: #2F281E;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.home_6_text{
+    align-items: center;
+}
+
+.home_6_text p{
+    font-size: 21px;
+    color: #544837;
+}
+
+/* section 6 */
+
+.section6{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 1400px;
+    width: 100%;
+    padding-bottom: 230px;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url('https://tredu.io/assets/coursesBg-fbadfd69.png');
+}
+
+.home_7_1{
+    text-align: center;
+    padding-top: 70px;
+}
+
+.home_7_1 h1{
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.home_7_1 p{
+    font-size: 20px;
+}
+
+.home_7_2{
+    display: flex;
+    margin-top: 50px;
+}
+
+.Courses{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-right: 80px;
+}
+
+.course{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 20px 30px 100px 30px;
+    margin-right: 70px;
+}
+
+.course h1{
+    color: #2F281E;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.course p{
+    color: #696984;
+    font-size: 18px;
+}
+
+#btnLeftArrow{
+    margin-top: 150px;
+    margin-left: 70px;
+}
+
+#btnRightArrow{
+    margin-top: 160px;
+    margin-left: -70px;
+}
+
+/* footer */
+
+.home_8_1{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    background-color: #16144A;
+    color: white !important;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 230px;
+    padding: 70px 50px;
+}
+
+.logo8{
+    width: 65%;
+    margin-bottom: 20px;
+}
+
+.home_8_1_2,
+.home_8_p1{
+    margin-bottom: 25px;
+}
+
+#insta{
+    margin-left: -40px;
+}
+
+.home_8_3,
+.home_8_2{
+    display: flex;
+    flex-direction: column;
+}
+
+/* home_8_4 */
+.home_8_4{
+    background-color: #EAE9FF;
+    color: black;
+    padding: 20px 50px;
+    max-height: 150px;
+    border-radius: 10px;
+}
+
+.home_8_h1{
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.input{
+    width: 220px;
+    height: 40px;
+    border-radius: 10px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border: none; 
+}
+
+.input::placeholder {
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+.btnSub{
+    width: 110px;
+    height: 40px;
+    background-color: #0079E9;
+    border: none;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: -10px;
+}
+
+/* home_8_2 */
+/* home_8_2 */
+.my_2,
+.my_1{
+    color: white;
+    font-size: 15px;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.my_2{
+    margin-left: -50px;
+}
+
+.my_1{
+    margin-left: 70px;
 }
