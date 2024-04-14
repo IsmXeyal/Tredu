@@ -350,6 +350,7 @@ a{
     border-radius: 10px;
     padding: 20px 30px 100px 30px;
     margin-right: 70px;
+    background-color: white;
 }
 
 .course h1{
@@ -453,7 +454,6 @@ a{
     margin-left: -10px;
 }
 
-/* home_8_2 */
 /* home_8_2 */
 .my_2,
 .my_1{

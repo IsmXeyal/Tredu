@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section_1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('https://tredu.io/assets/becomePartnerBg-48b32281.png');
+    background-repeat: no-repeat;
+    background-position-x: 53px;
+}
+
+.sec1_div1{
+    width: 1133px;
+    height: 2006.57px;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h1_1{
+    margin-top: 16px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    color: rgba(55, 75, 157, 1);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.tredu_logo{
+    max-width: 160px;
+    width: 100%;
+    margin-top: 32px;
+    margin-left: 210px;
+}
+
+#myForm{
+    width: 744px;
+    height: 1820px;
+    background-color: rgba(246, 246, 246, 1);
+    margin-top: 37px;
+    padding-left: 150px;
+    border-radius: 10px;
+}
+
+.Pers_info{
+    max-width: 240px;
+    width: 100%;
+    max-height: 24px;
+    height: 100%;
+    font-size: 20px;
+    font-weight: 550;
+    line-height: inherit;
+    margin-top: 28px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.inputItem {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 8px;
+}
+
+.inputItem label{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: rgba(104, 104, 104, 1);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.inputItem input, textarea {
+    max-width: 456px;
+    width: 100%;
+    max-height: 56px;
+    height: 100%;
+    padding: 16px 20px;
+    font-size: 14px;
+    line-height: 24px;
+    border: 1px solid rgba(217, 217, 217, 1); 
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.inputItem textarea {
+    resize: none;
+    max-width: 456px;
+    width: 100%;
+    max-height: 224px;
+    height: 100%;
+}
+
+.FileDiv{
+    max-width: 456px;
+    width: 100%;
+    max-height: 56px;
+    height: 100%;
+    background-color: white;
+    position: relative;
+    border: 1px solid rgba(217, 217, 217, 1); 
+    border-radius: 10px;
+}
+
+.FileDiv p{
+    position: absolute;
+    top: 16px;
+    left: 20px;
+    color: rgba(104, 104, 104, 1);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.FileDiv img{
+    position: absolute;
+    top: 16px;
+    right: 20px;
+    pointer-events: none;
+}
+
+#file {
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+  
+  #file:hover {
+    cursor: pointer;
+  }
+
+  .select {
+    max-width: 456px;
+    width: 100%;
+    max-height: 56px;
+    height: 100%;
+    font-size: 16px;
+    padding: 16px 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(217, 217, 217, 1); 
+    color: rgb(163, 160, 160);
+  }
+
+  #add{
+    text-decoration: none;
+    color: rgba(0, 121, 233, 1);
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+  }
+
+  .add{
+    margin-top: 10px;
+  }
+
+  #btn{
+    max-width: 456px;
+    width: 100%;
+    max-height: 50px;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    text-align: center; 
+    color: white !important;
+    background-color: rgba(0, 121, 233, 1);
+    border-radius: 12px;
+    border: none;
+    padding: 8px 16px;
+    margin-top: 30px;
+  }
+
+  /* footer */
+
+.home_8_1{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    background-color: #16144A;
+    color: white !important;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 230px;
+    padding: 70px 50px;
+    max-width: 1400px;
+    width: 100%;
+    border-radius: 5px;
+    margin-left: 70px;
+    margin-top: -70px;
+}
+
+.logo8{
+    width: 65%;
+    margin-bottom: 20px;
+}
+
+.home_8_1_2,
+.home_8_p1{
+    margin-bottom: 25px;
+}
+
+#insta{
+    margin-left: 20px;
+}
+
+.home_8_3,
+.home_8_2{
+    display: flex;
+    flex-direction: column;
+}
+
+/* home_8_4 */
+.home_8_4{
+    background-color: #EAE9FF;
+    color: black;
+    padding: 20px 50px;
+    max-height: 150px;
+    border-radius: 10px;
+}
+
+.home_8_h1{
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+#input{
+    width: 220px;
+    height: 40px;
+    border-radius: 10px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border: none; 
+    padding: 5px;
+    padding: 10px;
+}
+
+#input::placeholder {
+    font-size: 15px;
+}
+
+.btnSub{
+    width: 110px;
+    height: 40px;
+    background-color: #0079E9;
+    border: none;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: -3px;
+}
+
+/* home_8_2 */
+#my_2,
+#my_1{
+    color: white;
+    font-size: 15px;
+    margin-bottom: 15px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+#my_2{
+    margin-left: -50px;
+}
+
+#my_1{
+    margin-left: 70px;
+}
